@@ -143,12 +143,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/D3VIL_GULSHAN")],
-                                                                                   [InlineKeyboardButton(text="ADD D3VIL_GULSHAN BOT TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD ME",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="My Group",
                                                                        url="t.me/D3VIL_GULSHAN_OFFICIAL")
+                                                                                   [InlineKeyboardButton(text="YouTube",
+                                                                       url="https://youtube.com/channel/UCKegJ4DXahFok7HWhbGdMIg")),
+                                                                                   InlineKeyboardButton(text="Instagram",
+                                                                       url="https://instagram.com/gulshan__kumawat")
                                                                                  ]]))
-
     else:
         update.effective_message.reply_text("YO I AM ALREADY ONLINE 😎 😎")
 
